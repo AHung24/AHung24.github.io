@@ -49,6 +49,11 @@ img{
     margin-bottom: 100px;
 }
 
+hr{
+    margin-top: 50px;
+    margin-right: 200px;
+}
+
 /*.center{
     display: block;
     margin-left: auto;
