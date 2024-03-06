@@ -93,7 +93,7 @@ nav li:first-child a {
 
 /* Text */
 h1{
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     margin-top: 100px;
     text-align: center;
     color: white;
@@ -127,9 +127,10 @@ h2{
 }
 
 .pfp{
-  width: 45%; 
+  max-width: 45%; 
   height: auto;
   object-position: 10% 10%;
+  overflow: hidden;
   margin-bottom: 50px;
 }
 
