@@ -63,12 +63,13 @@ nav li:first-child a {
     grid-area: 1 / 4 / 3 / 6;
     margin-top: 25px;
     margin-right: 25px;
+    margin-left: 50px;
   }
 
 /*IMAGE*/
 
 .intro{
-    width: 50%;
+    width: 20%;
     display: block;
   margin-left: auto;
   margin-right: auto;
@@ -86,6 +87,8 @@ nav li:first-child a {
     object-fit: cover;
     object-position: 50% 100%;
     float: right;
+    margin-right: 50px;
+    margin-left: 50px;
   }
 
 /* Text */
@@ -93,9 +96,44 @@ h1{
     margin-bottom: 100px;
     margin-top: 100px;
     text-align: center;
+    color: white;
+    border: solid;
+    border-width: 5px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 h2{
     text-align: center;
     margin: 50px;
+    color: white;
+}
+
+.IntroParagraph{
+  color: white;
+  justify-content: center;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.pfp{
+  width: 45%; 
+  height: auto;
+  object-position: 10% 10%;
+  margin-bottom: 50px;
+}
+
+.beach {
+  width: 45%; 
+  height: auto;
 }
