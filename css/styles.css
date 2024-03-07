@@ -88,6 +88,10 @@ nav li:first-child a {
   height: 100vh;
 }
 
+.me{
+  margin-left: 150px;
+}
+
 .england{
   max-width: 45%; 
   height: auto;
