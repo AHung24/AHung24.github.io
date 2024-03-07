@@ -1,11 +1,17 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 body{
     background-color:rgb(50, 115, 135);
     font-family:Arial, Helvetica, sans-serif;
+}
+
+#BG{
+  background-image: url(/images/beach.jpg);
+  background-size: 100% 150%;
 }
 
 /* NAV */
@@ -32,6 +38,11 @@ nav a {
   display: flex;
   align-items: center;
   color: #ffffff;
+}
+.AHLogo{
+  position: relative;
+  width: 100px;
+  height: 100px;
 }
 
 nav li #active{
@@ -68,22 +79,42 @@ nav li:first-child a {
 
 /*IMAGE*/
 
-.intro{
-    width: 20%;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
- }
+/*Home Page Images*/
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.england{
+  max-width: 45%; 
+  height: auto;
+  object-position: 10% 10%;
+  overflow: hidden;
+  border: solid;
+  padding: 10px;
+  color: white;
+}
+
+.beach {
+  max-width: 45%; 
+  height: auto;
+  object-position: 10% 10%;
+  overflow: hidden;
+
+  border: solid;
+  padding: 10px;
+  color: white;
+}
+
 .album{
-    width: 300px;
-    height: 300px;
     object-fit: cover;
     object-position: 80% 100%;
     float: right;
   }
 .Book3{
-    width: 500px;
-    height: 300px;
     object-fit: cover;
     object-position: 50% 100%;
     float: right;
@@ -91,23 +122,58 @@ nav li:first-child a {
     margin-left: 50px;
   }
 
+  .drawingimgs{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+
+  .sidebysideimgs {
+    display: flex;
+  }
+  
+  .drawingimgs1 {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  /* add later 
+.Book2{
+    object-fit: cover;
+    object-position: 50% 25%;
+    float: right;
+    margin-top: 50px;
+  } */
+
 /* Text */
-h1{
+
+.Introduction{
     margin-bottom: 10px;
-    margin-top: 100px;
+    margin-top: 275px;
     text-align: center;
     color: white;
-    border: solid;
-    border-width: 5px;
-    padding: 10px;
     margin-left: 50px;
     margin-right: 50px;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.GD{
+  margin-bottom: 10px;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: xx-large;
 }
 
 h2{
     text-align: center;
     margin: 50px;
     color: white;
+    font-size:x-large;
 }
 
 .IntroParagraph{
@@ -119,22 +185,18 @@ h2{
   margin-bottom: 50px;
 }
 
-.container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100vh;
+.DesignText1{
+  color: white;
+  padding: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+
 }
 
-.pfp{
-  max-width: 45%; 
-  height: auto;
-  object-position: 10% 10%;
-  overflow: hidden;
-  margin-bottom: 50px;
+.drawingtext{
+  margin-bottom: 100px;
 }
 
-.beach {
-  width: 45%; 
-  height: auto;
-}
+
+/* Miscellaneous */
+
