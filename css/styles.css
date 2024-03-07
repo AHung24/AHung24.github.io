@@ -90,6 +90,10 @@ nav li:first-child a {
 
 .me{
   margin-left: 150px;
+  border: solid;
+  border-color:rgb(20, 56, 66);
+  border-width: 10px;
+  padding: 10px;
 }
 
 .england{
@@ -187,6 +191,8 @@ h2{
   margin-left: 150px;
   margin-right: 150px;
   margin-bottom: 50px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+
 }
 
 .DesignText1{
@@ -201,5 +207,20 @@ h2{
   margin-bottom: 100px;
 }
 
+h3{
+  color: white;
+  justify-content: center;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
 
+.aboutlist{
+  margin-left: 500px;
+  margin-bottom: 100px;
+  color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
 /* Miscellaneous */
