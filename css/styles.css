@@ -190,7 +190,7 @@ h2{
   padding: 10px;
   margin-left: 100px;
   margin-right: 100px;
-
+  font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 .drawingtext{
@@ -199,8 +199,18 @@ h2{
   margin-right: 100px;
   text-align: center;
   color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif
 }
 
+.photographytext{
+  margin-left: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
 h3{
   color: white;
   justify-content: center;
