@@ -4,13 +4,14 @@
 }
 
 body{
-    background-color:rgb(50, 115, 135);
+    background-color:rgb(6, 158, 209);
     font-family:Arial, Helvetica, sans-serif;
 }
 
 #BG{
   background-image: url(/images/beach.jpg);
   background-size: 100% 150%;
+  background-repeat: no-repeat;
 }
 
 /* NAV */
@@ -95,27 +96,6 @@ nav li:first-child a {
   padding: 10px;
 }
 
-.england{
-  max-width: 45%; 
-  height: auto;
-  object-position: 10% 10%;
-  overflow: hidden;
-  border: solid;
-  padding: 10px;
-  color: white;
-}
-
-.beach {
-  max-width: 45%; 
-  height: auto;
-  object-position: 10% 10%;
-  overflow: hidden;
-
-  border: solid;
-  padding: 10px;
-  color: white;
-}
-
 .album{
     object-fit: cover;
     object-position: 80% 100%;
@@ -128,6 +108,20 @@ nav li:first-child a {
     margin-right: 50px;
     margin-left: 50px;
   }
+
+.photographyimg{
+  margin-left: 35px;
+  margin-right: 20px;
+  margin-top: 25px; 
+}
+
+
+
+.drawingimgs1{
+  margin-top: 25px;
+  margin-left: 150px;
+  margin-right: 100px;
+}
 
 
   /* add later 
@@ -151,19 +145,12 @@ nav li:first-child a {
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-.GD{
-  margin-bottom: 10px;
-  margin-top: 50px;
-  text-align: center;
-  color: white;
-  margin-left: 50px;
-  margin-right: 50px;
-  font-size: x-large;
-}
+
 h1{
   text-align: center;
   margin: 50px;
   color: white;
+  font-size: xx-large;
 }
 
 h2{
@@ -192,9 +179,9 @@ h2{
 }
 
 .drawingtext{
-  margin-left: 100px;
+  margin-left: 150px;
   margin-bottom: 100px;
-  margin-right: 100px;
+  margin-right: 150px;
   text-align: center;
   color: white;
   font-family:Georgia, 'Times New Roman', Times, serif
