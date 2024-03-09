@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color:rgb(9, 136, 179);
+    background-color:rgb(163, 170, 172);
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -61,31 +61,50 @@ nav li:first-child a {
 }
 
   
-/* COLUMNS */
-  .parent{
-    min-height:200px;
-  }
-  .column1{
-    grid-area: 1 / 1 / 3 / 4;
-    margin-top: 25px;
-    margin-right: 50px;
-  }
-  .column2{
-    grid-area: 1 / 4 / 3 / 6;
-    margin-top: 25px;
-    margin-right: 25px;
-    margin-left: 50px;
-  }
+/* GD Columns */
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+}
+
+.column1 {
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.column2 {
+  margin-top: 25px;
+  margin-right: 50px;
+}
 
 /*IMAGE*/
 
-/*Home Page Images*/
+/*Home Page CSS*/
+.Introduction{
+  margin-bottom: 10px;
+  margin-top: 275px;
+  text-align: center;
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
 
-.container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100vh;
+
+/*About Me CSS*/
+
+.IntroParagraph{
+  color: rgb(93, 90, 90);
+  justify-content: center;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .me{
@@ -93,28 +112,92 @@ nav li:first-child a {
   border: solid;
   border-color:rgb(20, 56, 66);
   border-width: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+.aboutlist{
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-bottom: 100px;
+  color: rgb(93, 90, 90);
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3{
+  color: rgb(79, 82, 67);
+  justify-content: center;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+/*Graphic Design CSS*/
+
+.album{
+  object-fit: cover;
+  object-position: 80% 100%;
+  margin-left: 50px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.Book3{
+  object-fit: cover;
+  object-position: 50% 100%;
+  float: right;
+  border-radius: 20px;
+}
+
+.slice1{
+  object-fit: cover;
+  object-position: 80% 100%;
+  margin-bottom: 100px;
+  margin-right: 150px;  
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 50px;
+  border-radius: 20px;
+}
+
+.slicetrio{
+  margin-left: 0px;
   padding: 10px;
 }
 
-.album{
-    object-fit: cover;
-    object-position: 80% 100%;
-    float: right;
-  }
-.Book3{
-    object-fit: cover;
-    object-position: 50% 100%;
-    float: right;
-    margin-right: 50px;
-    margin-left: 50px;
-  }
-
-.photographyimg{
-  margin-left: 40px;
-  margin-top: 25px; 
+.slicetrio1, .slicetrio2, .book2{
+  padding: 10px;
+  border-radius: 20px;
 }
 
 
+.DesignText1{
+  color: rgb(93, 90, 90);
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 100px;
+}
+
+.DesignText2{
+  color: rgb(93, 90, 90);
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 100px;
+}
+
+h2{
+  text-align: center;
+  padding-bottom: 25px;
+  color: rgb(79, 82, 67);
+  font-size:x-large;
+}
+
+
+/*Drawing CSS*/
 
 .drawingimgs1{
   margin-top: 25px;
@@ -122,95 +205,72 @@ nav li:first-child a {
   margin-right: 100px;
 }
 
-
-  /* add later 
-.Book2{
-    object-fit: cover;
-    object-position: 50% 25%;
-    float: right;
-    margin-top: 50px;
-  } */
-
-/* Text */
-
-.Introduction{
-    margin-bottom: 10px;
-    margin-top: 275px;
-    text-align: center;
-    color: white;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 100px;
-    font-family: Georgia, 'Times New Roman', Times, serif
-}
-
-
-h1{
-  text-align: center;
-  margin: 50px;
-  color: white;
-  font-size: xx-large;
-}
-
-h2{
-    text-align: center;
-    margin: 50px;
-    color: white;
-    font-size:x-large;
-}
-
-.IntroParagraph{
-  color: white;
-  justify-content: center;
-  text-align: center;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-bottom: 50px;
-  font-family:Georgia, 'Times New Roman', Times, serif
-}
-
-.DesignText1{
-  color: white;
-  padding: 10px;
-  margin-left: 100px;
-  margin-right: 100px;
-  font-family:Georgia, 'Times New Roman', Times, serif
-}
-
 .drawingtext{
   margin-left: 150px;
   margin-bottom: 100px;
   margin-right: 150px;
   text-align: center;
-  color: white;
-  font-family:Georgia, 'Times New Roman', Times, serif
+  color: rgb(93, 90, 90);
 }
 
+.drawingtext2{
+  margin-left: 150px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  text-align: center;
+  color: rgb(93, 90, 90);
+}
+
+/*Photography CSS*/
+
+.photographyimg{
+  margin-left: 40px;
+  margin-top: 25px; 
+}
 .photographytext{
   margin-left: 100px;
   margin-bottom: 100px;
   margin-right: 100px;
   margin-top: 50px;
   text-align: center;
-  color: white;
-  font-family:Georgia, 'Times New Roman', Times, serif
+  color: rgb(93, 90, 90);
 }
-h3{
-  color: white;
-  justify-content: center;
+
+/* CSS ON ALL PAGES */
+h1{
   text-align: center;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin: 50px;
+  color: rgb(79, 82, 67);
+  font-size: xx-large;
 }
 
-.aboutlist{
-  margin-left: 500px;
-  margin-bottom: 100px;
-  color: white;
-  font-family:Georgia, 'Times New Roman', Times, serif
-}
 
-/*ask about how to center the list*/
 /* Miscellaneous */
+
+.VidLink{
+  text-decoration: none;
+}
+
+.pt-serif-regular {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-serif-bold {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-serif-regular-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-serif-bold-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
