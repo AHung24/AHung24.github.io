@@ -76,6 +76,7 @@ nav li:first-child a {
 .column2 {
   margin-top: 25px;
   margin-right: 50px;
+  margin-bottom: 25px;
 }
 
 /*IMAGE*/
@@ -156,12 +157,16 @@ h3{
 .slice1{
   object-fit: cover;
   object-position: 80% 100%;
-  margin-bottom: 100px;
-  margin-right: 150px;  
   border-radius: 20px;
-  padding: 10px;
-  margin-left: 50px;
+  margin-left: 25px;
+}
+
+.slice2{
+  object-fit: cover;
+  object-position: 80% 100%;
   border-radius: 20px;
+  float: right;
+  margin-right: 20px;
 }
 
 .slicetrio{
@@ -169,7 +174,7 @@ h3{
   padding: 10px;
 }
 
-.slicetrio1, .slicetrio2, .book2{
+.logoblack, .slicetrio2, .book2{
   padding: 10px;
   border-radius: 20px;
 }
@@ -196,6 +201,9 @@ h2{
   font-size:x-large;
 }
 
+#otherdesigns{
+  margin-top: 50px;
+}
 
 /*Drawing CSS*/
 
