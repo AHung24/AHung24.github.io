@@ -208,6 +208,7 @@ h3{
 .slicetrio{
   margin-left: 0px;
   padding: 10px;
+  margin-bottom: 50px;  
 }
 
 .logoblack, .slicetrio2, .book2{
@@ -280,9 +281,10 @@ margin-right: 10px;
     margin-top: 50px;
 }
 
-.slicetrio{
+.drawingtrio{
   margin-left: 0px;
   padding: 10px;
+  margin-bottom: 50px;
 }
 
 .stilllife2, .sketch, .tree{
@@ -304,7 +306,7 @@ margin-right: 10px;
   display: flex;
   justify-content: center; 
   align-items: center; 
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .photographytrio img{
@@ -312,18 +314,24 @@ margin-right: 10px;
   border-radius: 20px;
 }
 
-.photographytrio3 {
+.photographygallery{
   display: flex;
-  justify-content: center; 
-  align-items: center;
+  justify-content: center;
+  
+}
+.photographygalphotos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+  max-width: 95%; 
+  max-height: 800px;
   margin-bottom: 50px;
 }
 
-.photographytrio3 img {
-  padding: 0px;
+.photographygalphotos img {
+  width: 100%;
+  height: auto;
   border-radius: 10px;
-  max-height: 400px;
-  margin: 0 10px;
 }
 
 .milebeach{
@@ -347,6 +355,13 @@ h1{
   margin: 50px;
   color: rgb(79, 82, 67);
   font-size: xx-large;
+}
+
+footer{
+  background-color: rgb(42, 25, 86);
+  padding: 20px;
+  text-align: center;
+  color: white;
 }
 
 
